@@ -123,3 +123,11 @@ button.navbar-toggler{
 #searchbtn:hover {
     background-color: yellow;
 }
+
+.history {
+    /* background-color: aqua; */
+    width: 75%;
+    height: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
