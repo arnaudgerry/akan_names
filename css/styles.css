@@ -6,6 +6,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
+
 /*Navbar*/
 nav .logo a{
     color: rgb(241, 11, 11) !important;
@@ -61,4 +63,63 @@ button.navbar-toggler{
     background-repeat: no-repeat;
     height: 700px;
     background-size: contain;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore {
+    /* background-color: aqua; */
+    height: 100px;
+    width: 75%;
+    margin-bottom: 20px;
+    
+}
+
+.explore h1 {
+    font-family: 'Lobster', cursive;
+    text-align: left;
+    font-size: 60px;
+    padding: 10px;
+    color: green;
+}
+
+.forms-une {
+    display: flex;
+    flex-direction: row;
+    /* background-color: yellow; */
+    height: 100px;
+    width: 75%;
+    padding-left: 10px;
+}
+
+#name-search, #meaning-search, #searchbtn {
+    height: 60px;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+#name-search, #meaning-search {
+    width: 40%;
+}
+
+#searchbtn {
+    background-color: #A397C2;
+    width: 10%;
+    border-radius: 5px 5px;
+}
+
+#searchbtn a {
+    color: #fafafa;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#searchbtn:hover {
+    background-color: yellow;
 }
