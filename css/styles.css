@@ -133,8 +133,8 @@ button.navbar-toggler{
 }
 
 .content-container {
-    border: 2px solid red;
-    height: 700px;
+    /* border: 2px solid red; */
+    height: 450px;
     width: 75%;
     position: relative;
     margin: auto;
@@ -144,7 +144,7 @@ button.navbar-toggler{
 }
 
 .content-text, .content-form {
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
     height: 400px;
     width: 48%;
 }
@@ -162,17 +162,18 @@ button.navbar-toggler{
 }
 
 .male-nom, .female-nom, .days {
-    border: 2px solid purple;
+    border: 2px solid #A397C2;
     width: 33%;
     margin: 3px;
     margin-top: 10px;
     padding: 10px;
     text-align: center;
     list-style-type: none;
+    border-radius: 10px;
 }
 
 .form-une {
-    border: 2px solid red;
+    border: 2px solid #A397C2;
     width: 70%;
     height: 300px;
     padding: 10px;
