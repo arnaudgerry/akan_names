@@ -1,4 +1,4 @@
-# Insuarance
+# Akan Names
 
 #### A web based application to calculate birth dates, 4 March 2022
 #### By **Arnold Gerry**      
