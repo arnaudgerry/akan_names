@@ -53,4 +53,4 @@ let generateAkanName = e => {
 
 //event listener
 let submit = document.querySelector("#submit");
-submit.addEventListener('click', generateAkanname)
+submit.addEventListener('click', generateAkanName)
