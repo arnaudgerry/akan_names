@@ -73,7 +73,8 @@ Find Arnold Gerry on [Twitter](https://twitter.com/arnoldgerry1) or on [Github](
 
 [Go Back to the top](#portfolio)
 
-#### Link to live site: arnaudgerry.github.io/akan_names/
+#### Link to live site      
+arnaudgerry.github.io/akan_names/
 
 ## License  
 
