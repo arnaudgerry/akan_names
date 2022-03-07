@@ -79,16 +79,42 @@
                     </div>
                     <div class="female-nom">
                         <h3>Female</h3>
-                        <li>Akosua</li>
-                        <li>Adwoa</li>
-                        <li>Abenaa</li>
-                        <li>Akua</li>
-                        <li>Yaa</li>
-                        <li>Afua</li>
-                        <li>Ama</li>
+                        <un>
+                            <li>Akosua</li>
+                            <li>Adwoa</li>
+                            <li>Abenaa</li>
+                            <li>Akua</li>
+                            <li>Yaa</li>
+                            <li>Afua</li>
+                            <li>Ama</li>
+                        </un>
                     </div>
                 </div>
-                <div class="content-form"></div>
+                <div class="content-form">
+                    <form class="w-50">
+                        <h2 class="mb-4">Check Your Akan Name</h2>
+                        <div class="mb-3">
+                          <label for="date" class="form-label">Birthday</label>
+                          <input
+                            type="date"
+                            class="form-control form-control-lg"
+                            id="date"
+                            aria-describedby="emailHelp"
+                          />
+                        </div>
+                        <div class="mb-3">
+                          <select id="gender" class="form-select form-select-lg">
+                            <option value="none" selected disabled hidden>
+                              Select your gender
+                            </option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                          </select>
+                        </div>
+                        <input type="button" id="submit" class="btn btn-primary btn-lg" value="Get your Akan Name" />
+                    </form>
+                    <div class="mt-4" id="akan-name"></div>
+                </div>
             </div>
         </div>
     </div>
