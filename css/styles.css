@@ -131,3 +131,40 @@ button.navbar-toggler{
     padding: 10px;
     font-size: 20px;
 }
+
+.content-container {
+    border: 2px solid red;
+    height: 700px;
+    width: 75%;
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content-text, .content-form {
+    border: 2px solid brown;
+    height: 650px;
+    width: 48%;
+}
+
+.content-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-text h3 {
+    color: green;
+    font-family: 'Lobster', cursive;
+}
+
+.male-nom, .female-nom, .days {
+    border: 2px solid purple;
+    width: 33%;
+    margin: 3px;
+    padding: 10px;
+    text-align: center;
+    list-style-type: none;
+}
+
