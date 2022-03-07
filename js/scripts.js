@@ -25,3 +25,16 @@ let getAkanName = (objectNames, day) => {
         }
     }
 };
+
+//generate name from brithday
+let generateAkanName = e => {
+    e.preventDefault()
+    let date = document.getElementById("date").value;
+    if (!date) return alert ("Please provide a date");
+    let birthday =  new Date(date);
+    let akanNameValue = getAkanName(akanNames, birthday.getDay());
+    if (akanNameValue === "none") {
+        alert("Please select a gender")
+        return
+    }
+}
