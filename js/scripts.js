@@ -43,7 +43,14 @@ let generateAkanName = e => {
             if (birthday.getDay() === i) {
                 document.getElementById("akan-name").textContent = `Your were born on ${daysOfTheWeek[i]}, your Akan name is likely to be ${akanNameValue}`;
                 document.getElementById("akan-name").style.backgroundColor = "yellow"
+
+                document.querySelector("#gender").value = "none";
+                document.querySelector("date").value = "";
             }
         }
     }
 }
+
+//event listener
+let submit = document.querySelector("#submit");
+submit.addEventListener('click', generateAkanname)
